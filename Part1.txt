@@ -1,0 +1,32 @@
+(a) m_x_y //indicates if a mine is present at x,y
+    i_x_y //an indicator for that cell is true iff that cell or any of its diagonally adjacent cells has a mine
+    you would need 2 x n x n variables for minesweeper
+    
+(b) 
+    i_1_1 | ~i_1_1
+    ~i_1_2
+    i_1_3 | ~i_1_3
+    i_2_1
+    i_2_2 | ~i_2_2
+    i_2_3 | ~i_2_3
+    i_3_1 | ~i_3_1
+    i_3_2 | ~i_3_2
+    i_3_3 | ~i_3_3
+    
+(c) i_1_1 <=> m_1_1 | m_2_2
+    i_1_2 <=> m_1_2 | m_2_1 | m_2_3 
+    i_1_3 <=> m_1_3 | m_2_2
+    
+    i_2_1 <=> m_2_1 | m_1_2 | m_3_2 
+    i_2_2 <=> m_2_2 | m_1_1 | m_1_3 | m_3_1 | m_3_3
+    i_2_3 <=> m_2_3 | m_1_3 | m_3_2
+    
+    i_3_1 <=> m_3_1 | m_2_2
+    i_3_2 <=> m_3_2 | m_2_1 | m_2_3
+    i_3_3 <=> m_3_3 | m_2_2 
+
+(d) i_1_1 <=> (m_1_1 | m_2_2)
+(i_1_1 => (m_1_1 | m_2_2)) ^ ((m_1_1 | m_2_2) => i_1_1)
+(~i_1_1 | m_1_1 | m_2_2) ^ (~(m_1_1 | m_2_2) | i_1_1)
+(~i_1_1 | m_1_1 | m_2_2) ^ ((~m_1_1 | ~m_2_2) | i_1_1)
+(~i_1_1 | m_1_1 | m_2_2) ^ (~m_1_1 | i_1_1) ^ (~m_2_2 | i_1_1)

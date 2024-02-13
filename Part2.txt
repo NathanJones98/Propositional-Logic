@@ -1,0 +1,7 @@
+(b) I ran out of time - couldn't finish 1e
+
+(c) //
+
+(d)
+
+(e) No, this does not mean the cell has a mine. It may or may not have a mine, but we don't know yet as there isn't enough information. This is identical to the Justin Trudeau example given in class.

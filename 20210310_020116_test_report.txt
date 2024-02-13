@@ -1,0 +1,83 @@
+Project compiling success
+
+Running UnitPropTest1
+
+Running UnitPropTest10
+
+Running UnitPropTest2
+UnitPropTest2 passed with 0 millisec
+
+Running UnitPropTest3
+
+Running UnitPropTest4
+
+Running UnitPropTest5
+UnitPropTest5 passed with 1 millisec
+
+Running UnitPropTest6
+
+Running UnitPropTest7
+UnitPropTest7 passed with 1 millisec
+
+Running UnitPropTest8
+UnitPropTest8 passed with 1 millisec
+
+Running UnitPropTest9
+UnitPropTest9 passed with 1 millisec
+
+Running EnhancedTest1
+
+Running EnhancedTest10
+
+Running EnhancedTest2
+
+Running EnhancedTest3
+
+Running EnhancedTest4
+
+Running EnhancedTest5
+
+Running EnhancedTest6
+
+Running EnhancedTest7
+
+Running EnhancedTest8
+
+Running EnhancedTest9
+
+
+Competitive Portion: You passed 5 EnhancedDPLL test cases with total time: 0.00 millisec (average of 5 runs)
+Total run: 20, Pass: 5, Fail: 15
+Your grade is: 1.0/4
+Failed test: BeginTestRuntime(Tests)
+null
+Failed test: DPLLUnitPropTest1(Tests)
+Incorrect result expected:<true> but was:<false>
+Failed test: DPLLUnitPropTest10(Tests)
+Incorrect result expected:<true> but was:<false>
+Failed test: DPLLUnitPropTest3(Tests)
+Incorrect result expected:<true> but was:<false>
+Failed test: DPLLUnitPropTest4(Tests)
+Incorrect result expected:<true> but was:<false>
+Failed test: DPLLUnitPropTest6(Tests)
+Incorrect result expected:<true> but was:<false>
+Failed test: EnhancedTest1(Tests)
+Runtime did not improve
+Failed test: EnhancedTest10(Tests)
+Runtime did not improve
+Failed test: EnhancedTest2(Tests)
+Runtime did not improve
+Failed test: EnhancedTest3(Tests)
+Runtime did not improve
+Failed test: EnhancedTest4(Tests)
+Runtime did not improve
+Failed test: EnhancedTest5(Tests)
+Runtime did not improve
+Failed test: EnhancedTest6(Tests)
+Runtime did not improve
+Failed test: EnhancedTest7(Tests)
+Runtime did not improve
+Failed test: EnhancedTest8(Tests)
+Runtime did not improve
+Failed test: EnhancedTest9(Tests)
+Runtime did not improve
